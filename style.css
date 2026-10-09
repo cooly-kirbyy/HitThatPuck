@@ -1,7 +1,10 @@
+/*the trackbar for hitting the puck*/
+
 .trackcontainer{
     position: relative;
     display: flex;
     align-items: flex-end;
+    justify-content: flex-start;
     min-height: 100vh;
 }
 
@@ -11,7 +14,7 @@
     background-color:rgb(210, 227, 255); 
 }
 
-.puckzone{
+.hitzone{
     position: absolute;
     z-index: 10;
     right: 600px;
@@ -20,4 +23,29 @@
     height: 50px;
     width: 40px;
     background-color: rgb(103, 246, 87);
+}
+
+/*animation for the "note"*/
+
+.pucknote{
+    position: absolute;
+    z-index: 11;
+
+    height: 50px;
+    width: 20px;
+    background-color:rgb(14, 14, 14);
+    
+    animation: movenote 4s linear infinite;
+
+    pointer-events: none; /* disabling clicking until hit zone*/ 
+}
+
+@keyframes movenote {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+    }
 }
