@@ -29,6 +29,7 @@
 /*animation for the "note"*/
 
 .pucknote{
+    display: block;
     position: absolute;
     z-index: 11;
 
@@ -36,7 +37,7 @@
     width: 20px;
     background-color:rgb(14, 14, 14);
     
-    animation: movenote 30s linear infinite;
+    animation: movenote 60s linear infinite;
 
     pointer-events: none; /* disabling clicking until hit zone*/
 
