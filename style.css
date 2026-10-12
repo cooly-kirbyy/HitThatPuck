@@ -37,10 +37,9 @@
     width: 20px;
     background-color:rgb(14, 14, 14);
     
-    animation: movenote 60s linear infinite;
+    animation: movenote 4s linear infinite;
 
     pointer-events: none; /* disabling clicking until hit zone*/
-
 
 }
 
@@ -57,64 +56,23 @@
         pointer-events: none;
     }
 
-    4.8% {
-        transform: translate3d(645px,0,0);
-        pointer-events: none;
-    }
-
-    5% {
-        transform: translate3d(655px,0,0);
-        pointer-events: auto;
-    }
-
-    5.1% {
-        transform: translate3d(665px,0,0);
-        pointer-events: none;
-    }
-
-    10% {
-        transform: translate3d(1300px,0,0);
-        pointer-events: none;
-    }
-
-    15% {
-        transform: translate3d(655px,0,0);
-        pointer-events: auto;
-        }
-
-    20% {
-        transform: translate3d(100px,0,0);
-    }
-
-    30% {
-        transform: translate3d(1300px,0,0);
-    }
-
-    40% {
-        transform: translate3d(400px,0,0);
-    }
-
     50% {
-        transform: translate3d(0,0,0);
+        transform: translate3d(635px,0,0);
+        pointer-events: none;
+    }
+
+    53% {
+        transform: translate3d(690px,0,0);
+        pointer-events: auto;
     }
 
     60% {
-        transform: translate3d(1000px,0,0);
-    }
-
-    70% {
-        transform: translate3d(500px,0,0);
-    }
-
-    80% {
-        transform: translate3d(0,0,0);
-    }
-
-    90% {
-        transform: translate3d(500px,0,0);
+        transform: translate3d(700px,0,0);
+        pointer-events: none;
     }
 
     100% {
         transform: translate3d(1300px,0,0);
+        pointer-events: none;
     }
 }
