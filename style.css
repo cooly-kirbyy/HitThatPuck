@@ -43,8 +43,14 @@
 
 }
 
-.pucknote:active {
+.pucknote:active + .goal {
+    display: block;
     background: #0f0;
+
+}
+
+.goal{
+    display: none;
 }
 
 /*note moving randomizaton*/
@@ -56,18 +62,28 @@
         pointer-events: none;
     }
 
-    50% {
-        transform: translate3d(635px,0,0);
+    39% {
+        transform:translate3d(625px,0,0);
         pointer-events: none;
     }
 
-    53% {
+    40% {
+        transform: translate3d(635px,0,0);
+        pointer-events: auto;
+    }
+
+    50% {
         transform: translate3d(690px,0,0);
         pointer-events: auto;
     }
 
-    60% {
+    55% {
         transform: translate3d(700px,0,0);
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
         pointer-events: none;
     }
 
