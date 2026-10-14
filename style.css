@@ -1,4 +1,9 @@
 /*the trackbar for hitting the puck*/
+body {
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+}
 
 .trackcontainer{
     position: relative;
@@ -7,16 +12,24 @@
     justify-content: flex-start;
     min-height: 100vh;
 
-    counter-reset: checked-count 0;
+    counter-reset: goal-count 0;
 }
 
 .trackcontainer input[type="checkbox"]:checked {
-    counter-increment: checked-count;
+    counter-increment: goal-count;
 }
 
 .trackcontainer .count::after {
-    content: counter(checked-count);
+    content: counter(goal-count);
     font-weight: bold;
+}
+
+.goal-display {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
 }
 
 .pucktrack{
@@ -48,15 +61,28 @@
     width: 20px;
     background-color:rgb(14, 14, 14);
     
-    animation: movenote 4s linear infinite;
-
     pointer-events: none; /* disabling clicking until hit zone*/
 
 }
 
+#firstpuck {
+    animation: firstmove 4s linear infinite;
+}
+
+#secondpuck {
+
+}
+
+#thirdpuck {
+
+}
+
+
+/* disabling this for now
 .pucknote:active + .tempgoal {
     display: block;
 }
+*/ 
 
 .tempgoal{
     justify-content: center;
@@ -64,13 +90,12 @@
     display: flex;
     min-height: 100vh;
     display: none;
-
-
 }
+
 
 /*note moving randomizaton*/
 
-@keyframes movenote {
+@keyframes firstmove {
     
     0% {
         transform: translate3d(0,0,0);
