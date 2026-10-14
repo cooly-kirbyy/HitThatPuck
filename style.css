@@ -6,6 +6,17 @@
     align-items: flex-end;
     justify-content: flex-start;
     min-height: 100vh;
+
+    counter-reset: checked-count 0;
+}
+
+.trackcontainer input[type="checkbox"]:checked {
+    counter-increment: checked-count;
+}
+
+.trackcontainer .count::after {
+    content: counter(checked-count);
+    font-weight: bold;
 }
 
 .pucktrack{
@@ -43,14 +54,18 @@
 
 }
 
-.pucknote:active + .goal {
+.pucknote:active + .tempgoal {
     display: block;
-    background: #0f0;
-
 }
 
-.goal{
+.tempgoal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
     display: none;
+
+
 }
 
 /*note moving randomizaton*/
