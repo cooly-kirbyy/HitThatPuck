@@ -1,0 +1,158 @@
+/*animation for the "note"*/
+
+.pucknote{
+    display: block;
+    position: absolute;
+    z-index: 11;
+
+    height: 50px;
+    width: 20px;
+    background-color:rgb(14, 14, 14);
+    
+    pointer-events: none; /* disabling clicking until hit zone*/
+
+}
+
+/*pucks*/
+#firstpuck {
+    animation: firstmove 4s linear;
+}
+
+#secondpuck {
+    visibility: hidden;
+    animation: secondmove 4s 4s linear;
+}
+
+#thirdpuck {
+    visibility: hidden;
+    animation: thirdmove 4s 8s linear;
+}
+
+
+/*note moving randomizaton*/
+
+@keyframes firstmove {
+    
+    0% {
+        transform: translate3d(0,0,0);
+        pointer-events: none;
+    }
+
+    39% {
+        transform:translate3d(625px,0,0);
+        pointer-events: none;
+    }
+
+    40% {
+        transform: translate3d(635px,0,0);
+        pointer-events: auto;
+    }
+
+    50% {
+        transform: translate3d(690px,0,0);
+        pointer-events: auto;
+    }
+
+    55% {
+        transform: translate3d(700px,0,0);
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+        pointer-events: none;
+    }
+}
+
+@keyframes secondmove {
+
+     0% {
+        transform: translate3d(0,0,0);
+        pointer-events: none;
+    }
+
+    39% {
+        transform:translate3d(625px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    40% {
+        transform: translate3d(635px,0,0);  
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    50% {
+        transform: translate3d(690px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    55% {
+        transform: translate3d(700px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+}
+
+@keyframes thirdmove {
+
+     0% {
+        transform: translate3d(0,0,0);
+        pointer-events: none;
+    }
+
+    39% {
+        transform:translate3d(625px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    40% {
+        transform: translate3d(635px,0,0);  
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    50% {
+        transform: translate3d(690px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    55% {
+        transform: translate3d(700px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,22 @@
+/*for temp goal*/
+.goal-display {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.tempgoal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    display: none;
+}
+
+/* disabling this for now
+.pucknote:active + .tempgoal {
+    display: block;
+}
+*/ 
