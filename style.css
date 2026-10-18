@@ -14,7 +14,7 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 150px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -115,6 +115,6 @@ body {
     background-color: rgb(73, 255, 73);
 }
 
-.trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked)::has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
+.trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked):has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
     visibility: visible;
 }
