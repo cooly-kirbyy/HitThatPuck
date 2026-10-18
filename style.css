@@ -7,6 +7,57 @@ body {
     padding: 0px;
 }
 
+.countdown {
+    display:flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#three-count {
+    color:rgb(255, 51, 51);
+    animation-delay: 0s;
+}
+#two-count {
+    color:rgb(255, 166, 32); 
+    animation-delay: 1s;   
+}
+#one-count {
+    color:rgb(48, 176, 255);
+    animation-delay: 2s;
+}
+#start-count {
+    color:rgb(43, 226, 30);
+    animation-delay: 3s;
+}
+
+.countd {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    animation: countanim 1s forwards;
+}
+
+@keyframes countanim {
+    0% {
+        opacity: 0%;    
+        transform: rotate(30deg);
+    }
+    99% {
+        opacity: 100%;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
 .trackcontainer{
     position: relative;
     display: flex;
@@ -64,6 +115,6 @@ body {
     background-color: rgb(73, 255, 73);
 }
 
-.trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked) .win-screen {
+.trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked)::has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
     visibility: visible;
 }

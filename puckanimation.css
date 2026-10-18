@@ -14,25 +14,27 @@
 /*pucks*/
 #firstpuck {
     visibility: hidden;
-    animation: firstmove 4s linear;
+    animation: firstmove 4s 4s linear;
 }
 
 #secondpuck {
     visibility: hidden;
-    animation: secondmove 4s 4s linear;
+    animation: secondmove 4s 8s linear;
 }
 
 #thirdpuck {
     visibility: hidden;
-    animation: thirdmove 4s 8s linear;
+    animation: thirdmove 4s 12s linear;
 }
 
 #fourthpuck{
-
+    visibility: hidden;
+    animation: fourthmove 4s 16s linear;
 }
 
 #fifthpuck {
-    
+    visibility: hidden;
+    animation: fifthmove 4s 20s linear;
 }
 
 /*note moving randomizaton*/
@@ -127,6 +129,94 @@
 }
 
 @keyframes thirdmove {
+
+     0% {
+        transform: translate3d(0,0,0);
+        pointer-events: none;
+    }
+
+    39% {
+        transform:translate3d(625px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    40% {
+        transform: translate3d(635px,0,0);  
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    50% {
+        transform: translate3d(690px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    55% {
+        transform: translate3d(700px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+}
+
+@keyframes fourthmove {
+
+     0% {
+        transform: translate3d(0,0,0);
+        pointer-events: none;
+    }
+
+    39% {
+        transform:translate3d(625px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    40% {
+        transform: translate3d(635px,0,0);  
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    50% {
+        transform: translate3d(690px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    55% {
+        transform: translate3d(700px,0,0);
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    56% {
+        transform: translate3d(710px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+
+    100% {
+        transform: translate3d(1300px,0,0);
+        visibility: visible;
+        pointer-events: none;
+    }
+}
+
+@keyframes fifthmove {
 
      0% {
         transform: translate3d(0,0,0);
