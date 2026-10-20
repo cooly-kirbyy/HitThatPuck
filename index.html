@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 
-    <head>
-        <link rel="stylesheet" href="style.css"> 
-        <title>Hit That Puck</title>
+<head>
+    <link rel="stylesheet" href="style.css"> 
+    <title>Hit That Puck</title>
 
-        <link rel="icon" type="image/png" href="https://i.pinimg.com/736x/ad/35/18/ad351895699d555852d2ac563f6c773c.jpg">
-    </head>
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/736x/ad/35/18/ad351895699d555852d2ac563f6c773c.jpg">
+</head>
 
 
-    <body>
-        <div class = "trackcontainer">
+<body>
+    <div class = "trackcontainer">
 
-            <div class = "pucktrack">
-                <div class =  "hitzone"></div> 
-            </div>
-
-             <label class = "pucknote" id = "firstpuck">
-                <input type = "checkbox" id="pucknoteclicked" style="opacity:0;">
-             </label>
-
-            <label class = "pucknote" id = "secondpuck">
-                <input type = "checkbox" id="pucknoteclicked2" style="opacity:0;">
-             </label>
-
-            <label class = "pucknote" id = "thirdpuck" >
-                <input type = "checkbox" id="pucknoteclicked3" style="opacity:0;">
-             </label>
-
-            <label class = "pucknote" id = "fourthpuck" >
-                <input type = "checkbox" id="pucknoteclicked4" style="opacity:0;">
-            </label>
-
-            <label class = "pucknote" id = "fifthpuck" >
-                <input type = "checkbox" id="pucknoteclicked5" style="opacity:0;">
-             </label>
-            
-            <div class = "goal-display">
-                Goals Scored: <span class ="count"></span>
-            </div>
-
-            <div class = "countdown">
-                <div class = "countd" id = "three-count">3</div>
-                <div class = "countd" id = "two-count">2</div>
-                <div class = "countd" id = "one-count">1</div>
-                <div class = "countd" id = "start-count">GO!</div>
-            </div>
-
-            <div class = "win-screen">
-                <p>YOU WIN!</p>
-            </div>
+        <div class = "pucktrack">
+            <div class =  "hitzone"></div> 
         </div>
 
-    </body>
+        <label class = "pucknote" id = "firstpuck">
+            <input type = "checkbox" id="pucknoteclicked" style="opacity:0;">
+        </label>
+
+        <label class = "pucknote" id = "secondpuck">
+            <input type = "checkbox" id="pucknoteclicked2" style="opacity:0;">
+        </label>
+
+        <label class = "pucknote" id = "thirdpuck" >
+            <input type = "checkbox" id="pucknoteclicked3" style="opacity:0;">
+        </label>
+
+        <label class = "pucknote" id = "fourthpuck" >
+            <input type = "checkbox" id="pucknoteclicked4" style="opacity:0;">
+        </label>
+
+        <label class = "pucknote" id = "fifthpuck" >
+            <input type = "checkbox" id="pucknoteclicked5" style="opacity:0;">
+        </label>
+            
+        <div class = "goal-display">
+            <h3>Hit 5 Pucks In A Row To Win!</h3>
+            Goals Scored: <span class ="count"></span>
+        </div>
+
+        <img id = "player" src = "assets/hockey_player.png" width = "700px">
+
+        <div class = "countdown">
+            <div class = "countd" id = "three-count">3</div>
+            <div class = "countd" id = "two-count">2</div>
+            <div class = "countd" id = "one-count">1</div>
+            <div class = "countd" id = "start-count">GO!</div>
+        </div>
+
+        <div class = "win-screen">
+            <p>YOU WIN!</p>
+        </div>
+    </div>
+
+</body>
 </html>

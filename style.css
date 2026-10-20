@@ -57,6 +57,12 @@ body {
 
 }
 
+#player {
+    position: absolute;
+    right: 165px;
+    bottom:50px;
+}
+
 
 .trackcontainer{
     position: relative;
@@ -102,6 +108,8 @@ body {
     top: 25px;
     left: 10px;
 }
+
+
 
 .win-screen {
     visibility: hidden;
