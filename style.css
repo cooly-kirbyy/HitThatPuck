@@ -117,6 +117,32 @@ body {
     background-color: rgb(73, 255, 73);
 }
 
+.loss-screen {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 25;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(241, 18, 18);
+}
+
 .trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked):has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
     visibility: visible;
+}
+
+.trackcontainer:has(input[type = "checkbox"]:not(:checked)) .loss-screen {
+    animation: yalost 2s 24s linear forwards;
+}
+
+@keyframes yalost {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
 }
