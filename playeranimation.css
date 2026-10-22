@@ -1,0 +1,125 @@
+.player {
+    position: absolute;
+    right: 165px;
+    bottom:50px;
+}
+
+#shootpuck {
+    visibility: hidden;
+}
+
+.trackcontainer:has(#pucknoteclicked:checked) #shootpuck {
+    animation: gotagoal 2s linear forwards; 
+}
+.trackcontainer:has(#pucknoteclicked2:checked) #shootpuck {
+    animation: gotagoal2 2s linear forwards;
+}
+.trackcontainer:has(#pucknoteclicked3:checked) #shootpuck {
+    animation: gotagoal3 2s linear forwards;
+}
+.trackcontainer:has(#pucknoteclicked4:checked) #shootpuck {
+    animation: gotagoal4 2s linear forwards;
+}
+.trackcontainer:has(#pucknoteclicked5:checked) #shootpuck {
+    animation: gotagoal5 2s linear forwards;
+}
+
+@keyframes gotagoal {
+    0% {
+        visibility: visible;
+    }
+
+    2% {
+        visibility: visible;
+        scale: 1.05;
+    }
+
+    6% {
+        visibility: visible;
+        scale: 1;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes gotagoal2 {
+    0% {
+        visibility: visible;
+    }
+
+    2% {
+        visibility: visible;
+        scale: 1.05;
+    }
+
+    6% {
+        visibility: visible;
+        scale: 1;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes gotagoal3 {
+    0% {
+        visibility: visible;
+    }
+
+    2% {
+        visibility: visible;
+        scale: 1.05;
+    }
+
+    6% {
+        visibility: visible;
+        scale: 1;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes gotagoal4 {
+    0% {
+        visibility: visible;
+    }
+
+    2% {
+        visibility: visible;
+        scale: 1.05;
+    }
+
+    6% {
+        visibility: visible;
+        scale: 1;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes gotagoal5 {
+    0% {
+        visibility: visible;
+    }
+
+    2% {
+        visibility: visible;
+        scale: 1.05;
+    }
+
+    6% {
+        visibility: visible;
+        scale: 1;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
