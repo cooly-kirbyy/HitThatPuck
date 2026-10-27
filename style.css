@@ -139,7 +139,7 @@ h1 {
 }
 
 .trackcontainer:has(input[type = "checkbox"]:not(:checked)) .loss-screen {
-    animation: yalost 2s 24s linear forwards;
+    animation: yalost 2s 24.5s linear forwards;
 }
 
 @keyframes yalost {
