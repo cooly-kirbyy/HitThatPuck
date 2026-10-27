@@ -2,6 +2,7 @@
     position: absolute;
     right: 195px;
     bottom:50px;
+    z-index: 18;
 }
 
 .trackcontainer:has(#pucknoteclicked:checked) #standstill {

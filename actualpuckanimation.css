@@ -1,0 +1,103 @@
+.actualpuck {
+    position: absolute;
+    height: 18px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+
+    visibility: hidden;
+    bottom: 80px;
+    right: 625px;
+    z-index: 17;
+}
+
+.trackcontainer:has(#pucknoteclicked:checked) .actualpuck {
+    animation: moveforward 0.8s linear; 
+}
+.trackcontainer:has(#pucknoteclicked2:checked) .actualpuck {
+    animation: moveforward2 0.8s linear;
+}
+.trackcontainer:has(#pucknoteclicked3:checked) .actualpuck {
+    animation: moveforward3 0.8s linear;
+}
+.trackcontainer:has(#pucknoteclicked4:checked) .actualpuck {
+    animation: moveforward4 0.8s linear;
+}
+.trackcontainer:has(#pucknoteclicked5:checked) .actualpuck {
+    animation: moveforward5 0.8s linear;
+}
+
+@keyframes moveforward {
+    0% {
+        visibility: visible;
+    }
+
+    99% {
+        visbility: visible;
+        transform:translate3d(0,-285px,0);
+    }
+
+    100% {
+
+    }
+}
+
+@keyframes moveforward2 {
+    0% {
+        visibility: visible;
+    }
+
+    99% {
+        visbility: visible;
+        transform:translate3d(0,-285px,0);
+    }
+
+    100% {
+
+    }
+}
+
+@keyframes moveforward3 {
+    0% {
+        visibility: visible;
+    }
+
+    99% {
+        visbility: visible;
+        transform:translate3d(0,-285px,0);
+    }
+
+    100% {
+
+    }
+}
+
+@keyframes moveforward4 {
+    0% {
+        visibility: visible;
+    }
+
+    99% {
+        visbility: visible;
+        transform:translate3d(0,-285px,0);
+    }
+
+    100% {
+
+    }
+}
+
+@keyframes moveforward5 {
+    0% {
+        visibility: visible;
+    }
+
+    99% {
+        visbility: visible;
+        transform:translate3d(0,-285px,0);
+    }
+
+    100% {
+
+    }
+}

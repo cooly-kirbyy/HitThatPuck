@@ -1,5 +1,6 @@
 @import "puckanimation.css";
 @import "playeranimation.css";
+@import "actualpuckanimation.css";
 
 /*the trackbar for hitting the puck*/
 body {
@@ -166,11 +167,21 @@ h1 {
 }
 
 .trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked):has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
-    visibility: visible;
+    animation: youwin 2s 2.3s linear forwards;
 }
 
 .trackcontainer:has(input[type = "checkbox"]:not(:checked)) .loss-screen {
     animation: yalost 2s 24.5s linear forwards;
+}
+
+@keyframes youwin {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
 }
 
 @keyframes yalost {
