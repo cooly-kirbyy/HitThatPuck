@@ -4,8 +4,99 @@
     bottom:50px;
 }
 
+.trackcontainer:has(#pucknoteclicked:checked) #standstill {
+    animation: switchframe 2s linear forwards
+}
+
+.trackcontainer:has(#pucknoteclicked2:checked) #standstill {
+    animation: switchframe2 2s linear forwards
+}
+
+.trackcontainer:has(#pucknoteclicked3:checked) #standstill {
+    animation: switchframe3 2s linear forwards
+}
+
+.trackcontainer:has(#pucknoteclicked4:checked) #standstill {
+    animation: switchframe4 2s linear forwards
+}
+
+.trackcontainer:has(#pucknoteclicked5:checked) #standstill {
+    animation: switchframe5 2s linear forwards
+}
+
+@keyframes switchframe {
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes switchframe2 {
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes switchframe3 {
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes switchframe4 {
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes switchframe5 {
+    0% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 #shootpuck {
     visibility: hidden;
+    right: 40px;
 }
 
 .trackcontainer:has(#pucknoteclicked:checked) #shootpuck {
