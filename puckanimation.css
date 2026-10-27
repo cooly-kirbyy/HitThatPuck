@@ -48,31 +48,31 @@
     }
 
     39% {
-        transform:translate3d(625px,0,0);
+        transform:translate3d(600px,0,0);
         visibility: visible;
         pointer-events: none;
     }
 
     40% {
-        transform: translate3d(635px,0,0);
+        transform: translate3d(615px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     50% {
-        transform: translate3d(690px,0,0);
+        transform: translate3d(665px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     55% {
-        transform: translate3d(700px,0,0);
+        transform: translate3d(675px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     56% {
-        transform: translate3d(710px,0,0);
+        transform: translate3d(685px,0,0);
         visibility: visible;
         pointer-events: none;
     }
@@ -85,38 +85,38 @@
 }
 
 @keyframes secondmove {
-
-     0% {
+ 0% {
         transform: translate3d(0,0,0);
+        visbility: visible;
         pointer-events: none;
     }
 
     39% {
-        transform:translate3d(625px,0,0);
+        transform:translate3d(600px,0,0);
         visibility: visible;
         pointer-events: none;
     }
 
     40% {
-        transform: translate3d(635px,0,0);  
+        transform: translate3d(615px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     50% {
-        transform: translate3d(690px,0,0);
+        transform: translate3d(665px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     55% {
-        transform: translate3d(700px,0,0);
+        transform: translate3d(675px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     56% {
-        transform: translate3d(710px,0,0);
+        transform: translate3d(685px,0,0);
         visibility: visible;
         pointer-events: none;
     }
@@ -130,37 +130,38 @@
 
 @keyframes thirdmove {
 
-     0% {
+ 0% {
         transform: translate3d(0,0,0);
+        visbility: visible;
         pointer-events: none;
     }
 
     39% {
-        transform:translate3d(625px,0,0);
+        transform:translate3d(600px,0,0);
         visibility: visible;
         pointer-events: none;
     }
 
     40% {
-        transform: translate3d(635px,0,0);  
+        transform: translate3d(615px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     50% {
-        transform: translate3d(690px,0,0);
+        transform: translate3d(665px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     55% {
-        transform: translate3d(700px,0,0);
+        transform: translate3d(675px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     56% {
-        transform: translate3d(710px,0,0);
+        transform: translate3d(685px,0,0);
         visibility: visible;
         pointer-events: none;
     }
@@ -174,37 +175,38 @@
 
 @keyframes fourthmove {
 
-     0% {
+ 0% {
         transform: translate3d(0,0,0);
+        visbility: visible;
         pointer-events: none;
     }
 
     39% {
-        transform:translate3d(625px,0,0);
+        transform:translate3d(600px,0,0);
         visibility: visible;
         pointer-events: none;
     }
 
     40% {
-        transform: translate3d(635px,0,0);  
+        transform: translate3d(615px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     50% {
-        transform: translate3d(690px,0,0);
+        transform: translate3d(665px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     55% {
-        transform: translate3d(700px,0,0);
+        transform: translate3d(675px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     56% {
-        transform: translate3d(710px,0,0);
+        transform: translate3d(685px,0,0);
         visibility: visible;
         pointer-events: none;
     }
@@ -218,37 +220,38 @@
 
 @keyframes fifthmove {
 
-     0% {
+ 0% {
         transform: translate3d(0,0,0);
+        visbility: visible;
         pointer-events: none;
     }
 
     39% {
-        transform:translate3d(625px,0,0);
+        transform:translate3d(600px,0,0);
         visibility: visible;
         pointer-events: none;
     }
 
     40% {
-        transform: translate3d(635px,0,0);  
+        transform: translate3d(615px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     50% {
-        transform: translate3d(690px,0,0);
+        transform: translate3d(665px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     55% {
-        transform: translate3d(700px,0,0);
+        transform: translate3d(675px,0,0);
         visibility: visible;
         pointer-events: auto;
     }
 
     56% {
-        transform: translate3d(710px,0,0);
+        transform: translate3d(685px,0,0);
         visibility: visible;
         pointer-events: none;
     }

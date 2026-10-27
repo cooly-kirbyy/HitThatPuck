@@ -80,7 +80,7 @@ body {
 .hitzone{
     position: absolute;
     z-index: 10;
-    right: 600px;
+    right: 625px;
 
 
     height: 50px;
@@ -121,12 +121,17 @@ body {
     visibility: hidden;
     position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 25;
     height: 100vh;
     width: 100vw;
     background-color:rgb(241, 18, 18);
+}
+
+h1 {
+    margin: 0px;
 }
 
 .trackcontainer:has(#pucknoteclicked:checked):has(#pucknoteclicked2:checked):has(#pucknoteclicked3:checked):has(#pucknoteclicked4:checked):has(#pucknoteclicked5:checked) .win-screen {
