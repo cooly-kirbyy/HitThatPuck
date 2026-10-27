@@ -1,6 +1,6 @@
 .player {
     position: absolute;
-    right: 165px;
+    right: 195px;
     bottom:50px;
 }
 
@@ -96,7 +96,7 @@
 
 #shootpuck {
     visibility: hidden;
-    right: 40px;
+    right: 70px;
 }
 
 .trackcontainer:has(#pucknoteclicked:checked) #shootpuck {
