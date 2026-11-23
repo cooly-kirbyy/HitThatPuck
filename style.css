@@ -81,7 +81,7 @@ body {
 .hitzone{
     position: absolute;
     z-index: 10;
-    right: 625px;
+    left: 630px;
 
 
     height: 50px;
